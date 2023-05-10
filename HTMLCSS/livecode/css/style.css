@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;700");
 @import url("components/card.css");
+@import url("components/avatar.css");
 
 /* --- Fonts --- */
 body {
@@ -23,7 +24,7 @@ a:hover {
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 .text-center {
@@ -38,4 +39,9 @@ a:hover {
 
 .list-inline li {
   display: inline-block;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
 }

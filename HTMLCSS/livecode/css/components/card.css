@@ -1,0 +1,45 @@
+.card-container {
+  width: 300px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 8px;
+}
+
+.card-white:hover .btn{
+  opacity: 1;
+}
+
+.card-img {
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  background-color: white;
+  color: gray;
+  margin: 8px;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: 0.6s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: black;
+}
+
+
+.list-inline {
+  text-align: end;
+  color: gray;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
