@@ -1,0 +1,58 @@
+/* Category Card */
+.card-category {
+  height: 200px;
+  width: 400px;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.3); 
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+
+/* Product Card */
+
+.card-product {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 600px;
+}
+
+
+.card-product img {
+  height: 150px;
+  margin-right: 8px; 
+}
+
+.card-product h2, .card-product p {
+  margin: 0;
+}
+
+
+/* Trip Card */
+
+.card-trip-description {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: white;
+  padding: 8px;
+}
+
+.card-trip-description h2 {
+  margin: 0;
+}
+
+.card-trip {
+  width: 400px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+.card-trip > img {
+  width: 100%;
+}

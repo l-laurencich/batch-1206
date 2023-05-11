@@ -1,0 +1,10 @@
+.container {
+  /* TODO */
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
