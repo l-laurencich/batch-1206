@@ -47,11 +47,13 @@ a {
 }
 
 .social a {
-  color:rgb(10, 10, 10);
+  color:rgb(110, 110, 110);
+  transition: 1s;
 }
 
 .social a:hover {
   color:rgb(114, 114, 114);
+  font-size: 64px;
 }
 
 /* id selectors */
