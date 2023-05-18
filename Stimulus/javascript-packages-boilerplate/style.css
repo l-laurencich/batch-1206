@@ -1,0 +1,12 @@
+#results li {
+  cursor: grab;
+}
+
+#results li:active {
+  cursor: grabbing;
+}
+
+#results li.ghost {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
