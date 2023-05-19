@@ -1,0 +1,90 @@
+body {
+  background-color: whitesmoke;
+}
+.garage {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 25%;
+  background-color: white;
+}
+.garage-image {
+  background-repeat: no-repeat;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.garage-logo {
+  width: 80px;
+  border-radius: 10%;
+  border: 2px solid white;
+  margin-bottom: -40px;
+}
+.garage-logo img {
+  width: 100%;
+}
+.garage-info {
+  margin-top: 60px;
+}
+.garage-info .btn-cta {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.garage-info .btn-cta:hover {
+  background-color: black;
+  color: white;
+}
+.garage-description {
+  padding: 30px;
+  color: gray;
+}
+.cars-list {
+  width: 75%;
+  background-color: lightgray;
+  padding: 20px;
+  overflow: scroll;
+}
+.car {
+  display: flex;
+  background-color: white;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+.car:hover {
+  opacity: 1;
+}
+.car-image {
+  width: 140px;
+}
+.car-image img {
+  width: 100%;
+}
+.car-info {
+  padding: 10px;
+}
+.car-form {
+  padding: 0px 20px;
+}
+.car-form input {
+  margin-bottom: 5px;
+}
+.car-body {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 150px);
+}
+.car-plate {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.car-destroy {
+  align-self: flex-end;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Le Wagon Garage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    <div class="garage" data-controller="garage">
+      <div class="sidebar">
+        <div class="garage-image" style="background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url('images/garage.jpg');">
+          <div class="garage-logo">
+            <img src="images/wagon_logo.png" alt=""/>
+          </div>
+        </div>
+        <div class="garage-info">
+          <h3 class="text-center">Le Wagon</h3>
+          <div class="garage-description">
+            Our garage is the best.
+            Reasonable price, always on time, we are the awesome - and fictional - garage!
+          </div>
+          <div class="text-center">
+            <form class="car-form" data-action="submit->garage#createCar">
+              <input name="brand" type="text" class="form-control" placeholder="Ferrari">
+              <input name="model" type="text" class="form-control" placeholder="308 GTS">
+              <input name="plate" type="text" class="form-control" placeholder="56E-478">
+              <input name="owner" type="text" class="form-control" placeholder="Thomas Magnum">
+              <input type="submit" class="btn btn-cta" value="Add a Car">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="cars-list" data-garage-target="carsList">
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
